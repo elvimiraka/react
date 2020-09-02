@@ -1,0 +1,176 @@
+.tab-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20vh;
+}
+
+.sign-container{
+    border-radius: 5px;
+    margin: 100px auto;
+    width: 400px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.details {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.details label{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+.details input{
+    width: 95%;
+    height: 30px;
+    background-color: grey;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+}
+ button{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    background-color: #0071E3;
+    color: white
+}
+.car-container{
+    width: 500px;
+    margin: 100px auto;
+}
+.car-details{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.car-container label{
+    font-size: 18px;
+}
+.car-details input{
+    width: 50%;
+    border-left: 2px solid black;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    border-top: none;
+    border-right: none;
+    background-color: rgb(172, 172, 172);
+    outline: none;
+
+}
+.car-details select{
+    width: 50%;
+    border-left: 2px solid black;
+    border-bottom: 1px solid rgb(102, 102, 102);
+    border-top: none;
+    border-right: none;
+    background-color: rgb(172, 172, 172);
+    outline: none;
+}
+.view-open{
+    margin: 100px auto 30px auto;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(39, 39, 39);
+    border: 1px solid grey;
+    display: inline;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.view-open:hover{
+    cursor: pointer;
+}
+.view-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cars-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cars-card{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid rgb(145, 145, 145);
+    display: grid;
+    grid-template-columns: 1fr 0fr;
+    font-size: 18px;
+    background-color: rgb(204, 204, 204);
+}
+.cars-card:hover, .user-card:hover{
+    cursor: pointer;
+    background-color: rgb(151, 151, 151);
+    
+}
+.user-card{
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    border: 1px solid rgb(145, 145, 145);
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    background-color: rgb(204, 204, 204);
+    margin-top: 20px;
+}
+.profile-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.log-admin{
+    margin: 100px auto;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+.log-admin input{
+    width: 95%;
+    height: 30px;
+    background-color: grey;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 10px;
+}
+.header{
+    margin-left: 10px;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.log-options{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.name{
+
+    font-size: 24px;
+    margin-right: 10px;
+}
+.logout{
+    font-size: 24px;
+    padding: 0 10px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
